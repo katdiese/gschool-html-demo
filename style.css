@@ -18,13 +18,15 @@
 /* Columns & Row */
 .row {
   width: 90%;
-  max-width: 800px;
   margin: 0 auto 20px;
 }
 
 .column {
   float: left;
   margin-right: 2%;
+}
+.column:last-of-type {
+	border-left: 0;
 }
 
 .column.two-third {
@@ -55,6 +57,10 @@ a {
 
 a:hover {
   color: #FB8B6F;
+}
+h2{
+	color: #7f8c8d;
+	opacity: .5;
 }
 /* Header */
 header {
@@ -101,7 +107,7 @@ nav a:last-of-type {
 footer {
   background: #2c3e50;
   opacity: 0.5;
-  margin-top: 60px;
+  margin-top: 0;
   padding: 5px 0;
   font-size: 11px;
   text-align: center;
@@ -144,4 +150,8 @@ footer {
     width: 100% !important;
     margin-right: 0;
   }
+}
+iframe{
+	width: 100%;
+	margin: 3em 0;
 }
